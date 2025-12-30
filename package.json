@@ -23,6 +23,7 @@
     "typescript": "^5"
   },
   "dependencies": {
-    "@heroicons/react": "^2.2.0"
+    "@heroicons/react": "^2.2.0",
+    "@next/third-parties": "^16.1.1"
   }
 }

@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div>
-            <h3 className="text-xl font-bold mb-6 text-white">Voordeligste Warmtepomp</h3>
+            <h3 className="text-xl font-bold mb-6 text-white">Voordeligste-Warmtepomp.nl</h3>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
               Wij zijn gespecialiseerd in duurzame energieoplossingen. Met onze warmtepompen bespaart u op energiekosten en draagt u bij aan een groener milieu.
             </p>
@@ -61,7 +61,7 @@ export default function Footer() {
         
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm">
-            &copy; {new Date().getFullYear()} Voordeligste Warmtepomp. Alle rechten voorbehouden.
+            &copy; {new Date().getFullYear()} Voordeligste-Warmtepomp.nl. Alle rechten voorbehouden.
           </p>
         </div>
       </div>

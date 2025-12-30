@@ -29,32 +29,31 @@ export default function Navbar() {
   // On Other pages: Always dark text (as we might want a white header or just visible text)
   // HOWEVER, the current design uses transparent header on all pages.
   // If other pages have white background, white text won't be visible.
-  
+
   // Logic:
   // If Scrolled -> Text Dark (bg is white)
   // If Not Scrolled:
   //    If Home Page -> Text White (assuming dark hero image)
   //    If Other Page -> Text Dark (assuming white background)
-  
+
   const textColorClass = isScrolled || !isHomePage ? "text-gray-900" : "text-white";
   const hoverColorClass = "hover:text-green-500";
   const logoTextClass = isScrolled || !isHomePage ? "text-gray-900" : "text-white";
 
   return (
     <nav
-      className={`fixed w-full z-50 transition-all duration-300 top-0 mt-0 lg:mt-[40px] ${
-        isScrolled 
-          ? "bg-white/90 backdrop-blur-md shadow-lg py-2 mt-0 lg:mt-0" 
-          : isHomePage 
+      className={`fixed w-full z-50 transition-all duration-300 top-0 mt-0 lg:mt-[40px] ${isScrolled
+          ? "bg-white/90 backdrop-blur-md shadow-lg py-2 mt-0 lg:mt-0"
+          : isHomePage
             ? "bg-transparent py-4 border-b border-white/10"
             : "bg-white/90 backdrop-blur-md shadow-sm py-4 mt-0 lg:mt-0" // Default for non-home pages: visible background
-      }`}
+        }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className={`font-bold text-xl tracking-tight transition-colors ${logoTextClass}`}>
-               VOORDELIGSTE<span className="text-green-500">WARMTEPOMP</span>
+              Voordeligste-<span className="text-green-500">Warmtepomp.nl</span>
             </Link>
           </div>
           <div className="hidden md:flex space-x-8 items-center">
@@ -68,7 +67,7 @@ export default function Navbar() {
               href="/schemas"
               className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${hoverColorClass} ${textColorClass}`}
             >
-              Schema's
+              Schema&apos;s
             </Link>
             <Link
               href="/prijzen"
@@ -158,7 +157,7 @@ export default function Navbar() {
               className="text-gray-900 hover:text-green-600 block px-3 py-3 rounded-xl text-base font-bold hover:bg-gray-50 transition-colors"
               onClick={() => setIsOpen(false)}
             >
-              Schema's
+              Schema&apos;s
             </Link>
             <Link
               href="/prijzen"

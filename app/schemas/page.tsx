@@ -80,7 +80,7 @@ export default function SchemasPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h1 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            Warmtepomp <span className="text-green-500">Schema's</span>
+            Warmtepomp <span className="text-green-500">Schema&apos;s</span>
           </h1>
           <p className="mt-4 text-xl text-gray-500">
             Bekijk de verschillende opstellingen en kies wat bij uw situatie past.

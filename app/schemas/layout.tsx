@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Schema's - Voordeligste-warmtepomp",
+  title: "Schema's - Voordeligste-Warmtepomp.nl",
   description: "Bekijk de verschillende warmtepomp opstellingen: Hybride, Hybride met buffervat, All-electric en Stand-alone.",
 };
 
