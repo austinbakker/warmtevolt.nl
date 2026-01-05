@@ -43,28 +43,28 @@ export default function Prijzen() {
                   model: "Basis Hybride",
                   type: "Lucht-water",
                   power: "4 kW",
-                  price: "€ 4.500",
+                  price: "€ 4.000 - € 6.000",
                   subsidy: "€ 2.400",
                 },
                 {
                   model: "Standaard Hybride",
                   type: "Lucht-water",
                   power: "6 kW",
-                  price: "€ 5.800",
+                  price: "€ 6.000 - € 8.000",
                   subsidy: "€ 2.700",
                 },
                 {
                   model: "All-Electric Ready",
                   type: "Lucht-water",
                   power: "8 kW",
-                  price: "€ 7.200",
+                  price: "€ 9.000 - € 12.000",
                   subsidy: "€ 3.000",
                 },
                 {
                   model: "Premium All-Electric",
                   type: "Lucht-water",
                   power: "12 kW",
-                  price: "€ 10.500",
+                  price: "€ 14.000 - € 18.000",
                   subsidy: "€ 3.750",
                 }
               ].map((item, idx) => (
@@ -100,20 +100,20 @@ export default function Prijzen() {
             <div className="ml-3">
               <p className="text-sm text-blue-700">
                 * De subsidiebedragen zijn indicatief en afhankelijk van de actuele ISDE-regelgeving en meldcode.
-                Prijzen zijn exclusief installatie. Voor een exacte prijsopgave kunt u een offerte aanvragen.
+                Dit is inclusief basis installatie. Voor een exacte prijsopgave kunt u een adviesgesprek aanvragen.
               </p>
             </div>
           </div>
         </div>
 
         <div className="mt-16 text-center">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">Wilt u een exacte berekening?</h3>
-            <Link
-                href="/offerte"
-                className="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white transition-all duration-200 bg-green-500 rounded-full hover:bg-green-600 focus:outline-none shadow-lg"
-            >
-                Vraag nu een offerte aan
-            </Link>
+          <h3 className="text-2xl font-bold text-gray-900 mb-6">Wilt u een exacte berekening?</h3>
+          <Link
+            href="/advies"
+            className="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white transition-all duration-200 bg-green-500 rounded-full hover:bg-green-600 focus:outline-none shadow-lg"
+          >
+            Vraag nu een adviesgesprek aan
+          </Link>
         </div>
       </div>
     </div>

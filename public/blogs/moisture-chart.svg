@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0fdf4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dcfce7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#bgGrad)"/>
+  
+  <!-- Chart area -->
+  <rect x="100" y="50" width="600" height="280" fill="white" rx="8" stroke="#e5e7eb" stroke-width="2"/>
+  
+  <!-- Y-axis -->
+  <line x1="150" y1="80" x2="150" y2="300" stroke="#9ca3af" stroke-width="2"/>
+  <text x="80" y="190" font-family="system-ui, sans-serif" font-size="14" fill="#6b7280" transform="rotate(-90, 80, 190)">Luchtvochtigheid (g/m³)</text>
+  
+  <!-- X-axis -->
+  <line x1="150" y1="300" x2="650" y2="300" stroke="#9ca3af" stroke-width="2"/>
+  <text x="400" y="340" font-family="system-ui, sans-serif" font-size="14" fill="#6b7280" text-anchor="middle">Temperatuur</text>
+  
+  <!-- Bar for +2°C (high moisture) -->
+  <rect x="220" y="100" width="120" height="200" fill="#22c55e" rx="4"/>
+  <text x="280" y="320" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#374151" text-anchor="middle">+2°C</text>
+  <text x="280" y="85" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#22c55e" text-anchor="middle">5.6 g/m³</text>
+  
+  <!-- Bar for -10°C (low moisture) -->
+  <rect x="460" y="240" width="120" height="60" fill="#3b82f6" rx="4"/>
+  <text x="520" y="320" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#374151" text-anchor="middle">-10°C</text>
+  <text x="520" y="225" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#3b82f6" text-anchor="middle">2.1 g/m³</text>
+  
+  <!-- Legend -->
+  <rect x="550" y="70" width="16" height="16" fill="#22c55e" rx="2"/>
+  <text x="572" y="83" font-family="system-ui, sans-serif" font-size="12" fill="#374151">Hoge vochtigheid</text>
+  <rect x="550" y="95" width="16" height="16" fill="#3b82f6" rx="2"/>
+  <text x="572" y="108" font-family="system-ui, sans-serif" font-size="12" fill="#374151">Lage vochtigheid</text>
+  
+  <!-- Arrow indicating more ice formation -->
+  <path d="M280 130 L280 160 L270 150 M280 160 L290 150" stroke="#dc2626" stroke-width="3" fill="none"/>
+  <text x="320" y="150" font-family="system-ui, sans-serif" font-size="11" fill="#dc2626" font-weight="bold">Meer ijsvorming!</text>
+</svg>

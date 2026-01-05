@@ -4,7 +4,7 @@ import { useState } from "react";
 import * as fpixel from "@/lib/fpixel";
 import { sendContactEvent } from "../actions/facebook-events";
 
-export default function Offerte() {
+export default function Advies() {
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",

@@ -23,7 +23,7 @@ export default function Footer() {
                 <a href="/services" className="text-gray-400 hover:text-green-500 transition-colors text-sm">Extra Services</a>
               </li>
               <li>
-                <a href="/offerte" className="text-gray-400 hover:text-green-500 transition-colors text-sm">Offerte Aanvragen</a>
+                <a href="/advies" className="text-gray-400 hover:text-green-500 transition-colors text-sm">Adviesgesprek aanvragen</a>
               </li>
             </ul>
           </div>

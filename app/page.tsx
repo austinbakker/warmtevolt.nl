@@ -36,10 +36,10 @@ export default function Home() {
 
                   <div className="flex flex-col sm:flex-row gap-5 mb-16">
                      <Link
-                        href="/offerte"
+                        href="/advies"
                         className="group relative inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white transition-all duration-300 bg-green-600 rounded-full hover:bg-green-500 shadow-lg hover:shadow-green-500/50 overflow-hidden"
                      >
-                        <span className="relative z-10">Offerte aanvragen</span>
+                        <span className="relative z-10">Gratis adviesgesprek</span>
                         <div className="absolute inset-0 h-full w-full scale-0 rounded-full transition-all duration-300 group-hover:scale-100 group-hover:bg-green-500/20"></div>
                      </Link>
                      <Link
@@ -218,7 +218,7 @@ export default function Home() {
                      <p className="text-gray-400 text-lg leading-relaxed mb-8">
                         Wij maken verduurzamen eenvoudig. Geen gedoe, maar een duidelijk proces met persoonlijke begeleiding.
                      </p>
-                     <Link href="/offerte" className="inline-flex items-center font-bold text-white hover:text-green-400 transition-colors">
+                     <Link href="/advies" className="inline-flex items-center font-bold text-white hover:text-green-400 transition-colors">
                         Start uw aanvraag <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                      </Link>
                   </div>
@@ -248,14 +248,14 @@ export default function Home() {
                   Klaar voor de volgende stap?
                </h2>
                <p className="text-green-100 text-xl mb-12 max-w-2xl mx-auto font-light">
-                  Vraag vandaag nog een vrijblijvende offerte aan en start direct met besparen op uw energierekening.
+                  Vraag vandaag nog een vrijblijvend adviesgesprek aan en start direct met besparen op uw energierekening.
                </p>
                <div className="flex flex-col sm:flex-row justify-center gap-6">
                   <Link
-                     href="/offerte"
+                     href="/advies"
                      className="inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-green-700 transition-all duration-300 bg-white rounded-full hover:bg-gray-100 shadow-xl hover:shadow-2xl hover:-translate-y-1"
                   >
-                     Offerte aanvragen
+                     Gratis adviesgesprek
                   </Link>
                   <Link
                      href="/prijzen"

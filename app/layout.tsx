@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import { Suspense } from "react";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import TopBar from "@/components/TopBar";
+import FacebookPixel from "@/components/FacebookPixel";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +23,9 @@ export default function RootLayout({
   return (
     <html lang="nl">
       <body className={inter.className}>
+        <Suspense fallback={null}>
+          <FacebookPixel />
+        </Suspense>
         <div className="flex flex-col min-h-screen">
           <TopBar />
           <Navbar />

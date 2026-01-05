@@ -42,11 +42,11 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed w-full z-50 transition-all duration-300 top-0 mt-0 lg:mt-[40px] ${isScrolled
-          ? "bg-white/90 backdrop-blur-md shadow-lg py-2 mt-0 lg:mt-0"
-          : isHomePage
-            ? "bg-transparent py-4 border-b border-white/10"
-            : "bg-white/90 backdrop-blur-md shadow-sm py-4 mt-0 lg:mt-0" // Default for non-home pages: visible background
+      className={`fixed w-full z-50 transition-all duration-300 top-0 ${isScrolled
+        ? "bg-white/90 backdrop-blur-md shadow-lg py-2"
+        : isHomePage
+          ? "bg-transparent py-4 border-b border-white/10 lg:mt-[40px]"
+          : "bg-white/90 backdrop-blur-md shadow-sm py-4"
         }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -79,7 +79,7 @@ export default function Navbar() {
               href="/services"
               className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${hoverColorClass} ${textColorClass}`}
             >
-              Extra Services
+              Services
             </Link>
             <Link
               href="/accessoires"
@@ -88,10 +88,16 @@ export default function Navbar() {
               Accessoires
             </Link>
             <Link
-              href="/offerte"
+              href="/blogs"
+              className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${hoverColorClass} ${textColorClass}`}
+            >
+              Blogs
+            </Link>
+            <Link
+              href="/advies"
               className="bg-green-500 hover:bg-green-600 text-white px-6 py-2.5 rounded-full text-sm font-bold transition-all shadow-lg hover:shadow-green-500/30 transform hover:-translate-y-0.5"
             >
-              Offerte opvragen
+              Gratis adviesgesprek
             </Link>
           </div>
           <div className="-mr-2 flex items-center md:hidden">
@@ -171,7 +177,7 @@ export default function Navbar() {
               className="text-gray-900 hover:text-green-600 block px-3 py-3 rounded-xl text-base font-bold hover:bg-gray-50 transition-colors"
               onClick={() => setIsOpen(false)}
             >
-              Extra Services
+              Services
             </Link>
             <Link
               href="/accessoires"
@@ -181,11 +187,18 @@ export default function Navbar() {
               Accessoires
             </Link>
             <Link
-              href="/offerte"
+              href="/blogs"
+              className="text-gray-900 hover:text-green-600 block px-3 py-3 rounded-xl text-base font-bold hover:bg-gray-50 transition-colors"
+              onClick={() => setIsOpen(false)}
+            >
+              Blogs
+            </Link>
+            <Link
+              href="/advies"
               className="text-center bg-green-50 text-green-600 font-bold block px-3 py-3 rounded-xl text-base mt-4 border border-green-100"
               onClick={() => setIsOpen(false)}
             >
-              Offerte opvragen
+              Gratis adviesgesprek
             </Link>
           </div>
         </div>
