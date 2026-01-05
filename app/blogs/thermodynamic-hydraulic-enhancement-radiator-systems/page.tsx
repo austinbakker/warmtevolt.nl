@@ -24,7 +24,7 @@ export default function BlogPost() {
                     Radiatorventilatoren: Het Geheime Wapen voor uw Warmtepomp
                 </h1>
                 <p className="text-xl md:text-2xl text-gray-500 leading-relaxed border-l-4 border-green-500 pl-6 italic">
-                    Heeft u oude radiatoren en twijfelt u of een warmtepomp wel werkt? Voordat u duizenden euro's uitgeeft aan vloerverwarming, is er een slimmere oplossing die u direct geld bespaart.
+                    Heeft u oude radiatoren en twijfelt u of een warmtepomp wel werkt? Voordat u duizenden euro&apos;s uitgeeft aan vloerverwarming, is er een slimmere oplossing die u direct geld bespaart.
                 </p>
             </div>
 
@@ -37,13 +37,13 @@ export default function BlogPost() {
                     Het grootste verschil tussen een cv-ketel en een warmtepomp is de temperatuur. Een cv-ketel pompt water van 70°C of 80°C door uw radiatoren. Die worden gloeiend heet, en die hitte straalt er vanaf.
                 </p>
                 <p>
-                    Een warmtepomp werkt het beste (en zuinigst) op 35°C tot 45°C. Als u dat 'lauwe' water door uw oude radiatoren stuurt, gebeurt er vaak... te weinig. Het huis warmt traag op en op koude dagen krijgt u het misschien niet behaaglijk. Veel mensen denken dan dat ze hun hele huis moeten verbouwen voor vloerverwarming. Gelukkig hoeft dat niet.
+                    Een warmtepomp werkt het beste (en zuinigst) op 35°C tot 45°C. Als u dat &apos;lauwe&apos; water door uw oude radiatoren stuurt, gebeurt er vaak... te weinig. Het huis warmt traag op en op koude dagen krijgt u het misschien niet behaaglijk. Veel mensen denken dan dat ze hun hele huis moeten verbouwen voor vloerverwarming. Gelukkig hoeft dat niet.
                 </p>
 
                 {/* Infographic 1: Natural vs Forced Convection */}
                 <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">Het probleem: Trage Lucht</h3>
                 <p>
-                    Bij een traditionele radiator stijgt warme lucht langzaam op (natuurlijke trek). Maar dat werkt alleen goed als de radiator heet is. Bij lauw water stijgt de lucht amper op en blijft de warmte "hangen" in de radiator.
+                    Bij een traditionele radiator stijgt warme lucht langzaam op (natuurlijke trek). Maar dat werkt alleen goed als de radiator heet is. Bij lauw water stijgt de lucht amper op en blijft de warmte &quot;hangen&quot; in de radiator.
                 </p>
                 <div className="my-10 rounded-2xl overflow-hidden shadow-lg border border-gray-100 bg-white">
                     <div className="relative h-64 sm:h-96 w-full">
@@ -86,7 +86,7 @@ export default function BlogPost() {
                 </div>
 
                 <p>
-                    Dit betekent dat u in veel gevallen uw oude radiatoren gewoon kunt laten hangen als u overstapt op een warmtepomp. Dat scheelt hak- en breekwerk, en duizenden euro's aan verbouwingskosten.
+                    Dit betekent dat u in veel gevallen uw oude radiatoren gewoon kunt laten hangen als u overstapt op een warmtepomp. Dat scheelt hak- en breekwerk, en duizenden euro&apos;s aan verbouwingskosten.
                 </p>
 
                 {/* 3. Efficiency & Money */}
@@ -133,7 +133,7 @@ export default function BlogPost() {
                 </ul>
 
                 <p>
-                    Let bij aanschaf wel op de kwaliteit. Goedkope ventilatoren maken vaak herrie. Kies voor systemen die bekend staan als 'stil' of 'speedcomfort', zodat u alleen de warmte voelt en de ventilatoren niet hoort.
+                    Let bij aanschaf wel op de kwaliteit. Goedkope ventilatoren maken vaak herrie. Kies voor systemen die bekend staan als &apos;stil&apos; of &apos;speedcomfort&apos;, zodat u alleen de warmte voelt en de ventilatoren niet hoort.
                 </p>
 
                 <div className="bg-gray-900 text-white rounded-2xl p-8 text-center mt-12">
