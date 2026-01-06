@@ -24,7 +24,7 @@ export default function BlogPost() {
                     Nachtverlaging bij een Warmtepomp: Zin of Onzin?
                 </h1>
                 <p className="text-xl md:text-2xl text-gray-500 leading-relaxed border-l-4 border-blue-500 pl-6 italic">
-                    We zijn het allemaal gewend van vroeger: 's avonds de thermostaat naar 15 graden. Maar met een warmtepomp is dat vaak een dure vergissing. Waarom? Dat leggen we uit.
+                    We zijn het allemaal gewend van vroeger: &apos;s avonds de thermostaat naar 15 graden. Maar met een warmtepomp is dat vaak een dure vergissing. Waarom? Dat leggen we uit.
                 </p>
             </div>
 
@@ -32,12 +32,12 @@ export default function BlogPost() {
             <article className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 prose prose-lg prose-green text-gray-700">
 
                 {/* 1. The Rebound Effect */}
-                <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-6">Het "Ochtend-Boete" Effect</h2>
+                <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-6">Het &quot;Ochtend-Boete&quot; Effect</h2>
                 <p>
                     Een cv-ketel is een sprinter: hij kan heel snel veel hitte leveren. Een warmtepomp is een marathonloper: hij werkt het efficiëntst als hij rustig en constant doorloopt.
                 </p>
                 <p>
-                    Als u &apos;s nachts de temperatuur verlaagt, koelt uw huis af. &apos;s Ochtends moet de warmtepomp dan hard werken ("sprinten") om het weer warm te krijgen. Dit kost enorm veel energie, omdat het rendement (COP) dan drastisch daalt.
+                    Als u &apos;s nachts de temperatuur verlaagt, koelt uw huis af. &apos;s Ochtends moet de warmtepomp dan hard werken (&quot;sprinten&quot;) om het weer warm te krijgen. Dit kost enorm veel energie, omdat het rendement (COP) dan drastisch daalt.
                 </p>
 
                 {/* Infographic 1: Rebound Effect */}
