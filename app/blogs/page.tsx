@@ -23,6 +23,84 @@ export default function BlogsIndex() {
                 </div>
 
                 <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+
+
+                    {/* Blog Post Card 4 - Nachtverlaging */}
+                    <Link
+                        href="/blogs/nachtverlaging-warmtepomp-zin-of-onzin"
+                        className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col border border-gray-100"
+                    >
+                        <div className="relative h-64 overflow-hidden bg-gray-200">
+                            <div className="absolute inset-0 bg-white group-hover:scale-105 transition-transform duration-500 flex items-center justify-center">
+                                <Image
+                                    src="/blogs/night-setback-rebound.png"
+                                    alt="Rebound Effect Graph"
+                                    fill
+                                    className="object-contain p-8"
+                                />
+                            </div>
+
+                            <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-gray-900/80 to-transparent">
+                                <span className="inline-block px-3 py-1 bg-blue-500 text-white text-xs font-bold rounded-full mb-2">
+                                    Expert Advies
+                                </span>
+                            </div>
+                        </div>
+
+                        <div className="p-8 flex flex-col flex-grow">
+                            <h2 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-green-600 transition-colors leading-tight">
+                                Nachtverlaging bij een Warmtepomp: Zin of Onzin?
+                            </h2>
+                            <p className="text-gray-500 mb-6 line-clamp-3 leading-relaxed">
+                                Moet u de thermostaat lager zetten &apos;s nachts? Ontdek waarom dit bij een warmtepomp vaak averechts werkt en meer stroom kost.
+                            </p>
+                            <div className="mt-auto flex items-center text-green-600 font-bold">
+                                Lees artikel
+                                <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg>
+                            </div>
+                        </div>
+                    </Link>
+
+                    {/* Blog Post Card 3 - Hidden Costs */}
+                    <Link
+                        href="/blogs/hidden-costs-cheap-heat-pumps"
+                        className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col border border-gray-100"
+                    >
+                        <div className="relative h-64 overflow-hidden bg-gray-200">
+                            <div className="absolute inset-0 bg-white group-hover:scale-105 transition-transform duration-500 flex items-center justify-center">
+                                <Image
+                                    src="/blogs/iceberg-cost.png"
+                                    alt="Iceberg Cost Analogy"
+                                    fill
+                                    className="object-contain p-8"
+                                />
+                            </div>
+
+                            <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-gray-900/80 to-transparent">
+                                <span className="inline-block px-3 py-1 bg-red-500 text-white text-xs font-bold rounded-full mb-2">
+                                    Waarschuwing
+                                </span>
+                            </div>
+                        </div>
+
+                        <div className="p-8 flex flex-col flex-grow">
+                            <h2 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-green-600 transition-colors leading-tight">
+                                De Verborgen Kosten van Goedkope Warmtepompen
+                            </h2>
+                            <p className="text-gray-500 mb-6 line-clamp-3 leading-relaxed">
+                                Een goedkope warmtepomp lijkt aantrekkelijk, maar kan duurder uitpakken. Ontdek de verborgen kosten: stroomverbruik, geluidsoverlast en levensduur.
+                            </p>
+                            <div className="mt-auto flex items-center text-green-600 font-bold">
+                                Lees artikel
+                                <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg>
+                            </div>
+                        </div>
+                    </Link>
+
                     {/* Blog Post Card 1 */}
                     <Link
                         href="/blogs/waarom-kwakkelweer-lastiger-is-dan-vrieskou"
