@@ -40,6 +40,62 @@ export default function BlogPost() {
                     Een warmtepomp werkt het beste (en zuinigst) op 35°C tot 45°C. Als u dat &apos;lauwe&apos; water door uw oude radiatoren stuurt, gebeurt er vaak... te weinig. Het huis warmt traag op en op koude dagen krijgt u het misschien niet behaaglijk. Veel mensen denken dan dat ze hun hele huis moeten verbouwen voor vloerverwarming. Gelukkig hoeft dat niet.
                 </p>
 
+                {/* Data Table: Radiator Output Drop */}
+                <div className="overflow-x-auto my-8">
+                    <table className="min-w-full text-sm text-left text-gray-500 border border-gray-200 rounded-lg overflow-hidden">
+                        <thead className="bg-gray-50 text-gray-700 font-bold uppercase text-xs">
+                            <tr>
+                                <th className="px-4 py-3">Aanvoer / Retour</th>
+                                <th className="px-4 py-3 hidden sm:table-cell">Gem. Temp</th>
+                                <th className="px-4 py-3 hidden sm:table-cell">Delta T</th>
+                                <th className="px-4 py-3">Vermogen (Watt)</th>
+                                <th className="px-4 py-3">Prestatie</th>
+                            </tr>
+                        </thead>
+                        <tbody className="divide-y divide-gray-200">
+                            <tr className="bg-red-50">
+                                <td className="px-4 py-3 font-medium text-gray-900">75°C / 65°C</td>
+                                <td className="px-4 py-3 hidden sm:table-cell">70°C</td>
+                                <td className="px-4 py-3 hidden sm:table-cell">50</td>
+                                <td className="px-4 py-3 font-bold">2.100 W</td>
+                                <td className="px-4 py-3 text-red-600 font-bold">100% (CV-Ketel)</td>
+                            </tr>
+                            <tr>
+                                <td className="px-4 py-3 font-medium text-gray-900">65°C / 55°C</td>
+                                <td className="px-4 py-3 hidden sm:table-cell">60°C</td>
+                                <td className="px-4 py-3 hidden sm:table-cell">40</td>
+                                <td className="px-4 py-3">1.570 W</td>
+                                <td className="px-4 py-3">~75%</td>
+                            </tr>
+                            <tr>
+                                <td className="px-4 py-3 font-medium text-gray-900">55°C / 45°C</td>
+                                <td className="px-4 py-3 hidden sm:table-cell">50°C</td>
+                                <td className="px-4 py-3 hidden sm:table-cell">30</td>
+                                <td className="px-4 py-3">1.080 W</td>
+                                <td className="px-4 py-3">~51%</td>
+                            </tr>
+                            <tr>
+                                <td className="px-4 py-3 font-medium text-gray-900">45°C / 35°C</td>
+                                <td className="px-4 py-3 hidden sm:table-cell">40°C</td>
+                                <td className="px-4 py-3 hidden sm:table-cell">20</td>
+                                <td className="px-4 py-3">636 W</td>
+                                <td className="px-4 py-3">~30%</td>
+                            </tr>
+                            <tr className="bg-blue-50">
+                                <td className="px-4 py-3 font-medium text-gray-900">35°C / 25°C</td>
+                                <td className="px-4 py-3 hidden sm:table-cell">30°C</td>
+                                <td className="px-4 py-3 hidden sm:table-cell">10</td>
+                                <td className="px-4 py-3 font-bold">258 W</td>
+                                <td className="px-4 py-3 text-blue-600 font-bold">~12% (Warmtepomp)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p className="text-xs text-center text-gray-400 mt-2 italic">
+                        *Effect van lagere watertemperatuur op het vermogen van een standaard radiator.
+                    </p>
+                </div>
+
+
                 {/* Infographic 1: Natural vs Forced Convection */}
                 <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">Het probleem: Trage Lucht</h3>
                 <p>
