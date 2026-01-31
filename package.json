@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "Warmtevolt.nl",
   "version": "0.1.0",
   "private": true,
@@ -27,4 +27,3 @@
     "@next/third-parties": "^14.2.35"
   }
 }
-
