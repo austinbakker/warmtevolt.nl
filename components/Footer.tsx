@@ -32,20 +32,24 @@
             <h3 className="text-lg font-bold mb-6 text-white">Contact</h3>
             <ul className="space-y-4">
               <li className="flex items-start">
+                 <span className="text-green-500 mr-3">Adres:</span>
+                 <span className="text-gray-400 text-sm">Plein Luxemburg 4, 6414GJ Heerlen</span>
+              </li>
+              <li className="flex items-start">
                  <span className="text-green-500 mr-3">Email:</span>
                  <a href="mailto:info@Warmtevolt.nl" className="text-gray-400 hover:text-white text-sm">info@Warmtevolt.nl</a>
               </li>
               <li className="flex items-start">
                  <span className="text-green-500 mr-3">Telefoon:</span>
-                 <a href="tel:+31645049399" className="text-gray-400 hover:text-white text-sm">+31 6 45049399</a>
+                 <a href="tel:+31640089929" className="text-gray-400 hover:text-white text-sm">06 40089929</a>
               </li>
               <li className="flex items-start">
                  <span className="text-green-500 mr-3">KVK:</span>
-                 <span className="text-gray-400 text-sm">92639739</span>
+                 <span className="text-gray-400 text-sm">81017014</span>
               </li>
               <li className="flex items-start">
-                 <span className="text-green-500 mr-3">BTW:</span>
-                 <span className="text-gray-400 text-sm">NL866124925B01</span>
+                 <span className="text-green-500 mr-3">IBAN:</span>
+                 <span className="text-gray-400 text-sm">NL18KNAB0612318095</span>
               </li>
             </ul>
           </div>
