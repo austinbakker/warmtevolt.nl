@@ -1,8 +1,8 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Services - Voordeligste-Warmtepomp.nl",
+  title: "Services - Warmtevolt.nl",
   description: "Professionele services voor uw warmtepomp en vloerverwarming. Van onderhoud tot installatie, wij helpen u met al uw vragen.",
 };
 
@@ -220,4 +220,5 @@ export default function Services() {
     </div>
   );
 }
+
 

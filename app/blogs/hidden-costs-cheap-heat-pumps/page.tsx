@@ -1,8 +1,8 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import Image from "next/image";
 
 export const metadata = {
-    title: "De Verborgen Kosten van Goedkope Warmtepompen - Voordeligste-Warmtepomp.nl",
+    title: "De Verborgen Kosten van Goedkope Warmtepompen - Warmtevolt.nl",
     description: "Een goedkope warmtepomp lijkt aantrekkelijk, maar kan duurder uitpakken. Ontdek de verborgen kosten van budgetmodellen: stroomverbruik, geluidsoverlast en levensduur.",
 };
 
@@ -136,3 +136,4 @@ export default function BlogPost() {
         </div>
     );
 }
+

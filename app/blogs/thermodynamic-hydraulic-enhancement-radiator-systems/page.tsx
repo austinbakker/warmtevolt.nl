@@ -1,8 +1,8 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import Image from "next/image";
 
 export const metadata = {
-    title: "Radiatorventilatoren: Het Geheime Wapen voor uw Warmtepomp - Voordeligste-Warmtepomp.nl",
+    title: "Radiatorventilatoren: Het Geheime Wapen voor uw Warmtepomp - Warmtevolt.nl",
     description: "Krijgt u uw huis niet warm met de warmtepomp? Ontdek hoe simpele radiatorventilatoren uw oude radiatoren geschikt maken voor lage temperaturen en uw energierekening verlagen.",
 };
 
@@ -207,3 +207,4 @@ export default function BlogPost() {
         </div>
     );
 }
+

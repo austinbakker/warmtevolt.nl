@@ -1,8 +1,8 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import Image from "next/image";
 
 export const metadata = {
-    title: "Nachtverlaging bij een Warmtepomp: Zin of Onzin? - Voordeligste-Warmtepomp.nl",
+    title: "Nachtverlaging bij een Warmtepomp: Zin of Onzin? - Warmtevolt.nl",
     description: "Moet u de thermostaat lager zetten 's nachts met een warmtepomp? Ontdek waarom nachtverlaging vaak averechts werkt bij vloerverwarming en warmtepompen.",
 };
 
@@ -156,3 +156,4 @@ export default function BlogPost() {
         </div>
     );
 }
+

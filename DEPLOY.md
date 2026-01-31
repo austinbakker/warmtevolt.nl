@@ -1,4 +1,4 @@
-# Deployment Guide for voordeligste-warmtepomp.nl
+﻿# Deployment Guide for Warmtevolt.nl
 
 This guide is for AI assistants and developers to deploy the website to Vercel.
 
@@ -14,7 +14,7 @@ This guide is for AI assistants and developers to deploy the website to Vercel.
 ### 1. Link to the correct Vercel project
 
 ```bash
-npx vercel link --project voordeligste-warmtepomp-nl --yes
+npx vercel link --project Warmtevolt-nl --yes
 ```
 
 ### 2. Deploy to Production
@@ -74,7 +74,7 @@ Run this entire block to deploy:
 
 ```powershell
 # Link to project
-npx vercel link --project voordeligste-warmtepomp-nl --yes
+npx vercel link --project Warmtevolt-nl --yes
 
 # Deploy to production
 npx vercel --prod
@@ -86,7 +86,7 @@ npx vercel --prod
 
 | Project Name | URL | Purpose |
 |--------------|-----|---------|
-| `voordeligste-warmtepomp-nl` | https://www.voordeligste-warmtepomp.nl | **Main production site** |
+| `Warmtevolt-nl` | https://www.Warmtevolt.nl | **Main production site** |
 | `warmtevolt-app` | https://warmtevolt-app.vercel.app | Development/staging |
 
 ---
@@ -138,4 +138,5 @@ Go to [Meta Events Manager](https://business.facebook.com/events_manager) → Pi
 ```bash
 npx vercel --prod --force
 ```
+
 

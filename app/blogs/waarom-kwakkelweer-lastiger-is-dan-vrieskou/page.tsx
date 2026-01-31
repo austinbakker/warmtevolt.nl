@@ -1,8 +1,8 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import Image from "next/image";
 
 export const metadata = {
-    title: "Waarom 'Kwakkelweer' Lastiger is dan Vrieskou - Voordeligste-Warmtepomp.nl",
+    title: "Waarom 'Kwakkelweer' Lastiger is dan Vrieskou - Warmtevolt.nl",
     description: "Uit recent onderzoek blijkt dat de echte uitdaging voor een warmtepomp niet de Siberische kou is, maar juist de typisch Nederlandse, mistige winterdag. Lees alles over de Defrost Trap.",
 };
 
@@ -134,3 +134,4 @@ export default function BlogPost() {
         </div>
     );
 }
+

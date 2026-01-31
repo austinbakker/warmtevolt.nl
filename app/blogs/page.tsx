@@ -1,8 +1,8 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import Image from "next/image";
 
 export const metadata = {
-    title: "Blogs - Voordeligste-Warmtepomp.nl",
+    title: "Blogs - Warmtevolt.nl",
     description: "Lees onze laatste artikelen en onderzoeken over warmtepompen.",
 };
 
@@ -184,3 +184,4 @@ export default function BlogsIndex() {
         </div>
     );
 }
+

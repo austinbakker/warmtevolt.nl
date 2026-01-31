@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { Suspense } from "react";
@@ -11,7 +11,7 @@ import FacebookPixel from "@/components/FacebookPixel";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Home - Voordeligste-Warmtepomp.nl",
+  title: "Home - Warmtevolt.nl",
   description: "Vooroplopen in hernieuwbare energie voor een betere toekomst.",
 };
 
@@ -37,3 +37,4 @@ export default function RootLayout({
     </html>
   );
 }
+

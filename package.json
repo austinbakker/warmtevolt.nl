@@ -1,5 +1,5 @@
-{
-  "name": "voordeligste-warmtepomp.nl",
+﻿{
+  "name": "Warmtevolt.nl",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -27,3 +27,4 @@
     "@next/third-parties": "^14.2.35"
   }
 }
+

@@ -1,4 +1,4 @@
-# TODO: Facebook Tracking Implementation
+﻿# TODO: Facebook Tracking Implementation
 
 ## Pending Tasks
 
@@ -36,7 +36,8 @@ See [DEPLOY.md](./DEPLOY.md) for full deployment instructions.
 
 Or manually:
 ```bash
-npx vercel link --project voordeligste-warmtepomp-nl --yes
+npx vercel link --project Warmtevolt-nl --yes
 npx vercel --prod
 ```
+
 
